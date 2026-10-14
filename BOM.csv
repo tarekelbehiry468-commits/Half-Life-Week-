@@ -1,10 +1,10 @@
-Item,Quantity,Unit Cost (USD),Extended Cost (USD),Link
-XIAO ESP32 C3,1,5.00,5.00,https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
-0.96 OLED,1,2.50,2.50,https://www.amazon.com/dp/B0GBVWBWCR
-MPU6050,1,2.29,2.29,https://www.amazon.com/dp/B0943SGP34
-DHT11,1,3.33,3.33,https://www.amazon.com/dp/B0BLG7R99R
-MX Switches,4,0.18,0.72,https://www.amazon.com/dp/B0FQP8VYX4
-Keycaps,4,0.60,2.40,https://www.amazon.com/dp/B0CQ2VLMVY
-10k Resistor,1,0.05,0.05,https://www.amazon.com/dp/B0B4JFPHTW
-PCB,1,10.00,10.00,https://www.jlcpcb.com/
-Total (each kit),,,26.29,
+Item,Quantity,Unit Cost (USD),Extended Cost (USD),Link,Vendor,Purpose
+XIAO ESP32 C3,1,5.00,5.00,https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html,Seeed Studio,"Main microcontroller; runs the firmware and controls the display, sensors, and buttons."
+0.96 OLED,1,2.50,2.50,https://www.amazon.com/dp/B0GBVWBWCR,Amazon,"Displays Starbie's graphics, radial menu, and pet statistics."
+MPU6050,1,2.29,2.29,https://www.amazon.com/dp/B0943SGP34,Amazon,"Detects tilt, motion, and shaking for gesture controls."
+DHT11,1,3.33,3.33,https://www.amazon.com/dp/B0BLG7R99R,Amazon,Measures ambient temperature and humidity.
+MX Switches,4,0.18,0.72,https://www.amazon.com/dp/B0FQP8VYX4,Amazon,Provides four physical inputs for menu control and interaction.
+Keycaps,4,0.60,2.40,https://www.amazon.com/dp/B0CQ2VLMVY,Amazon,Provides the user-facing caps for the four MX switches.
+10k Resistor,1,0.05,0.05,https://www.amazon.com/dp/B0B4JFPHTW,Amazon,Pulls the DHT11 data line high for reliable sensor readings.
+PCB,1,10.00,10.00,https://www.jlcpcb.com/,JLCPCB,Manufactures the custom circuit board that connects the components.
+Total (each kit),,,26.29,,,Estimated component cost for one complete kit before shipping and taxes.
