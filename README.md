@@ -23,11 +23,11 @@ The full parts list is in [`BOM.csv`](BOM.csv). The main parts are:
 - 0.96-inch I2C OLED
 - MPU6050 motion sensor
 - DHT11 temperature/humidity sensor
-- Two MX switches and keycaps
+- Two installed MX switches and keycaps; the purchase BOM includes two spares of each
 - One 10 kΩ resistor
 - The custom Starbie PCB
 
-The estimated cost is **$24.73 per kit** before shipping and taxes.
+The estimated purchase cost is **$26.29 per kit** before shipping and taxes, including the spare switches and keycaps listed in the BOM.
 
 ## Build and use
 

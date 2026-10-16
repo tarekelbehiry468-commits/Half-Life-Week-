@@ -31,4 +31,4 @@ Official references: [submission requirements](https://forge.hackclub.com/docs/r
 
 ## Current BOM total
 
-The current estimated component cost is **$24.73 before shipping and taxes**. Confirm live prices and shipping before requesting funding.
+The current estimated purchase cost is **$26.29 before shipping and taxes**, including two spare switches and two spare keycaps. Confirm live prices and shipping before requesting funding.
