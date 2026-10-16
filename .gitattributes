@@ -1,0 +1,6 @@
+*.blend binary
+*.glb binary
+*.png binary
+*.step binary
+*.STEP binary
+*.zip binary
