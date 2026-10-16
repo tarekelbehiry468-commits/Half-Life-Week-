@@ -62,6 +62,12 @@ KiCad project sources are in [`PCB/`](PCB/):
 
 Ready-to-manufacture Gerber and drill files are in [`PCB/production/`](PCB/production/). Upload `Starbie Gerbers V1.0.zip` to a PCB manufacturer and review its preview before ordering. The extracted files are included alongside the archive for inspection.
 
+### Schematic
+
+The complete wiring and component connections are shown below and are available in editable form in [`PCB/Starbie.kicad_sch`](PCB/Starbie.kicad_sch).
+
+![Starbie complete KiCad schematic and wiring diagram](GuidePics/endschematic.png)
+
 ## 3D design files
 
 - [`PCB/Starbie.glb`](PCB/Starbie.glb) — viewable populated-board assembly
