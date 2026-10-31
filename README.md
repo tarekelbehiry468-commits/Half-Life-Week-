@@ -110,7 +110,7 @@ The model and committed render were inspected together to confirm that the inten
 
 ## External design review
 
-**Status: pending.** No independent human review feedback is currently recorded in this repository, so this requirement must not be marked complete yet.
+**Status: pending.** [Design review request #1](https://github.com/tarekelbehiry468-commits/Half-Life-Week-/issues/1) is open. No independent human review feedback is currently recorded in this repository, so this requirement must not be marked complete yet.
 
 Before the Forge submission, ask a peer, mentor, or knowledgeable community member to inspect the schematic, routed PCB, BOM, and populated assembly. Useful checks include power and ground, I2C wiring, button inputs, the DHT11 pull-up, footprints and orientation, routing/clearances, placement, assembly collisions, and whether the BOM matches the design.
 
