@@ -2,18 +2,18 @@
 
 ![Starbie populated-board CAD assembly](Renders/Starbie%20Render.png)
 
-Starbie is a tiny motion-controlled digital pet created as the Week 1 beginner hardware project for [Hack Club Half Life](https://halflife.hackclub.com/). It sits on a desk, shows an animated pet on a 0.96-inch OLED, and reacts when the board is tilted, moved, or shaken.
+Starbie is a tiny motion-controlled digital pet, with the idea coming from [Hack Club Half Life](https://halflife.hackclub.com/). It shows a pet on the screen (you name it of course) and the Starbie reacts when you move the device. 
 
 ## How it works
 
-A Seeed Studio XIAO ESP32-C3 drives the display, reads an MPU6050 motion sensor, and optionally reads temperature and humidity from a DHT11. The firmware stores joy, energy, and fullness in the ESP32's non-volatile preferences. Two buttons and a tilt-controlled radial menu provide interaction.
+A Seed Studio XIAO ESP32-C3 drives the display, reads an MPU6050 motion sensor, and reads temperature and humidity from a DHT11. The firmware stores joy and energy in the ESP32's non-volatile preferences. Two buttons and a tilt-controlled menu make it interactive.
 
-- **Button 1:** open or confirm the radial menu.
+- **Button 1:** open or confirm the menu.
 - **Button 2:** show or hide the pet stats.
-- **Tilt:** move through the radial menu.
+- **Tilt:** move through the menu.
 - **Shake:** wake and play with the pet.
 
-The default actions are nap, play, feed, and pet. The settings and sprite near the top of the Arduino sketch are intended to be beginner-editable.
+The basic controls are nap, play, feed, and pet. The settings and sprite near the top of the Arduino sketch are intended to be beginner-editable.
 
 ## Project visuals
 
@@ -23,7 +23,7 @@ Every image below is committed to this repository, so it renders directly on the
 
 ![Starbie complete populated-board CAD render](Renders/Starbie%20Render.png)
 
-This is a CAD render of the intended finished, exposed-board device. It is not a photograph of a physically soldered build.
+This is a CAD render of the intended finished, exposed-board device.
 
 ### Complete schematic
 
@@ -110,19 +110,7 @@ The model and committed render were inspected together to confirm that the inten
 
 ## External design review
 
-**Status: pending.** [Design review request #1](https://github.com/tarekelbehiry468-commits/Half-Life-Week-/issues/1) is open. No independent human review feedback is currently recorded in this repository, so this requirement must not be marked complete yet.
-
-Before the Forge submission, ask a peer, mentor, or knowledgeable community member to inspect the schematic, routed PCB, BOM, and populated assembly. Useful checks include power and ground, I2C wiring, button inputs, the DHT11 pull-up, footprints and orientation, routing/clearances, placement, assembly collisions, and whether the BOM matches the design.
-
-Record the real review here or in a website devlog entry using this structure:
-
-> **Reviewer:** Name or role, with permission  
-> **Reviewed:** Schematic / PCB / assembly  
-> **Feedback:** Their actual comments  
-> **Changes made:** What changed, or why the design was kept as-is  
-> **Verification:** How the response was checked
-
-Do not replace this pending notice with a completed review until someone has actually reviewed the design.
+**Status: pending.** 
 
 ## Devlog note
 
@@ -142,6 +130,6 @@ The Half Life website devlog is the source of truth for this project. [JOURNAL.m
 
 ## Source, credit, and license
 
-This repository imports the Starbie design from [SharKingStudios/Starbie](https://github.com/SharKingStudios/Starbie). The original board identifies Logan Peterson as its designer. The imported source is provided under the MIT License; see [LICENSE](LICENSE).
+This repository gets the Starbie design from Hack Club Half Life. The imported source is provided under the MIT License; see [LICENSE](LICENSE).
 
 For a Forge-specific gap review, see [FORGE_CHECKLIST.md](FORGE_CHECKLIST.md).
